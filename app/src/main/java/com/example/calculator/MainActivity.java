@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 if(temp.equals("")){
                     temp = "0";
                 }
-                topTextView.setText("");
                 operation = ((Button) v).getText().toString();
+                topTextView.setText("");
             }
         };
     }
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         final Button sixButton = findViewById(R.id.number_six);
         final Button sevenButton = findViewById(R.id.number_seven);
         final Button eightButton = findViewById(R.id.number_eight);
-        final ImageButton backspaceButton = findViewById(R.id.backspace);
+        final Button backspaceButton = findViewById(R.id.backspace);
         final Button nineButton = findViewById(R.id.number_nine);
         final Button zeroButton = findViewById(R.id.number_zero);
         final Button decimalButton = findViewById(R.id.decimal_point);
