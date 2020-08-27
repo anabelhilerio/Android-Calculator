@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="@integer/scope_row_count"
+    android:columnCount="@integer/scope_col_count">
+
+    <Button
+        android:id="@+id/standard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/standard"/>
+
+    <Button
+        android:id="@+id/financial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/financial"/>
+
+    <Button
+        android:id="@+id/scientific"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scientific"/>
+</GridLayout>

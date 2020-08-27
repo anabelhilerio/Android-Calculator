@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Calc</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="decimal_point">.</string>
+    <string name="standard">Standard</string>
+    <string name="scientific">Scientific</string>
+    <string name="financial">Financial</string>
+    <string name="clear">CE</string>
+    <string name="equals">=</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="multiplication">x</string>
+    <string name="division">/</string>
+    <string name="percentage">%</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="sqr_root">\u221A</string>
+    <string name="sqrt_wrapper">\u221A(%1$s)</string>
+    <string name="tan_wrapper">tan(%1$s)</string>
+    <string name="cos_wrapper">cos(%1$s)</string>
+    <string name="sin_wrapper">sin(%1$s)</string>
+    <string name="add_wrapper">%1$s + %2$s</string>
+    <string name="sub_wrapper">%1$s - %2$s</string>
+    <string name="multiply_wrapper">%1$s x %2$s</string>
+    <string name="div_wrapper">%1$s / %2$s</string>
+    <string name="perct_wrapper">%1$s%</string>
+    <string name="u232b">⌫</string>
+</resources>
