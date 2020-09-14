@@ -2,78 +2,91 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="@color/red"
     android:rowCount="@integer/num_row_count"
     android:columnCount="@integer/num_col_count">
 
     <Button
         android:layout_height="130dp"
         android:id="@+id/number_one"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/one" />
 
     <Button
         android:layout_height="130dp"
         android:id="@+id/number_two"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/two"/>
 
     <Button
         android:layout_height="130dp"
         android:id="@+id/number_three"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/three"/>
 
     <Button
         android:layout_height="130dp"
         android:id="@+id/number_four"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/four" />
 
     <Button
         android:layout_height="130dp"
         android:id="@+id/number_five"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/five"/>
 
     <Button
         android:layout_height="130dp"
         android:id="@+id/number_six"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/six"/>
 
     <Button
         android:layout_height="130dp"
         android:id="@+id/number_seven"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/seven" />
 
     <Button
         android:layout_height="130dp"
         android:id="@+id/number_eight"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/eight"/>
 
     <Button
         android:layout_height="130dp"
         android:id="@+id/number_nine"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/nine"/>
 
     <Button
-        android:layout_height="130dp"
+        android:layout_height="138dp"
         android:id="@+id/backspace"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/u232b" />
 
     <Button
-        android:layout_height="130dp"
+        android:layout_height="138dp"
         android:id="@+id/number_zero"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/zero"/>
 
     <Button
-        android:layout_height="130dp"
+        android:layout_height="138dp"
         android:id="@+id/decimal_point"
+        android:background="@color/red"
         android:layout_width="wrap_content"
         android:text="@string/decimal_point"/>
 </GridLayout>

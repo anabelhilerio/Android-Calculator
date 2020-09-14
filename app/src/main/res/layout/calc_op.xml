@@ -3,70 +3,82 @@
     android:id="@+id/operations"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="@color/orange"
     android:rowCount="@integer/op_row_count"
     android:columnCount="@integer/op_col_count">
 
     <Button
         android:id="@+id/clear"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/clear"/>
 
     <Button
         android:id="@+id/equals"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/equals"/>
 
     <Button
         android:id="@+id/add"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add"/>
     <Button
         android:id="@+id/minus"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/minus"/>
 
     <Button
         android:id="@+id/multiply"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/multiplication"/>
 
     <Button
         android:id="@+id/division"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/division"/>
 
     <Button
         android:id="@+id/percent"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/percentage"/>
 
     <Button
         android:id="@+id/sin"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sin"/>
 
     <Button
         android:id="@+id/cos"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cos"/>
 
     <Button
         android:id="@+id/tan"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tan"/>
 
     <Button
         android:id="@+id/sqr_root"
+        android:background="@color/orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sqr_root"/>

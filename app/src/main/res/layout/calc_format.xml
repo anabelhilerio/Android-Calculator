@@ -2,23 +2,27 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="@color/gray"
     android:rowCount="@integer/scope_row_count"
     android:columnCount="@integer/scope_col_count">
 
     <Button
         android:id="@+id/standard"
+        android:background="@color/gray"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/standard"/>
 
     <Button
         android:id="@+id/financial"
+        android:background="@color/gray"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/financial"/>
 
     <Button
         android:id="@+id/scientific"
+        android:background="@color/gray"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/scientific"/>
